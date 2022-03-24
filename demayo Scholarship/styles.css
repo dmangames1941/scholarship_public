@@ -6,46 +6,66 @@ body{
 	font-style: normal;
 	font-size:14pt;
 	background:linear-gradient(45deg, hsla(170,100%,71%,1) 0%, hsla(208,100%,77%,1) 100%);
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 #container{
-	width:80%;
-	height:1680px;
+	width:1300px;
+	height:auto;
 	background-color:white;
 	margin:auto;
 }
 header{
-	width:100%;
-	height: 377px;
+	width:1300px;
+	height:250px;
 	background-image:url("header.png");
 	background-repeat:no-repeat;
 	background-position: center;
 }
 aside{
-	width:20%;
-	height:1100px;
+	width:200px;
+	height:1660px;
 	float:left;
 	background-color:#D6D6D6;
 	padding-left: 5px;
+	padding-top: 65px
 }
 main{
-	
 	float:left;
-	width:70%;
-	margin:5px;
+	width:1075px;
+	height:1650px;
+	margin:10px;
+	padding-top: 50px;
 }
 footer{
-	margin:0;
-	padding:0;
-	width:400px;
+	margin:0px;
+	padding:0px;
+	width:1300px;
 	background-color: #f1f1f1;
 	clear:both;
-	height:200px;
+	height:auto;
+}
+h1{
+	margin-top:50px;
+	font-size: 28pt;
+}
+h4, .column p{
+	font-size: 20pt;
+}
+main p{
+	font-size: 24pt;
+}
+main li{
+	font-size: 20pt;
+}
+aside p{
+	font-size: 18pt;
 }
 footer li{
 	list-style-type:none;
 	display:block;
 	padding:5px;
-	font-size:20px;
+	font-size:24pt;
 }
 footer li a:link{
 	text-decoration: none;
@@ -56,4 +76,10 @@ footer li a:hover{
 	color:#171717;
 	border-radius:10px;
 	padding:10px;
+}
+.column{
+	width: 650px;
+	float:left;
+	height:300px;
+	background-color: #f1f1f1;
 }
